@@ -1,0 +1,59 @@
+[data-theme='light'] {
+  --color-first: #ff0000;
+  --color-first-dark: #cc0000;
+  --color-second: #3b4cca;
+  --color-second-light: #637bff;
+  --color-third: #ffde00;
+  --color-third-dark: #dac22b;
+
+  --color-gray-light: #f5f5f5;
+  --color-gray: #cecece;
+  --color-gray-dark: #333333;
+
+  --bg-body: linear-gradient(135deg, #f5f7fa 0%, #a7c0e7 70%);
+
+  --bg-header: var(--color-first);
+  --bg-card: var(--color-white);
+
+  --text-primary: var(--color-black);
+  --text-on-first: var(--color-white);
+  --text-on-second: var(--color-white);
+  --text-on-third: var(--color-black);
+
+  --card-border-color: var(--color-second-light);
+  --card-text-color: var(--color-second);
+  --card-text-color-second: var(--color-first);
+  --card-text-color-third: var(--color-second-light);
+}
+
+[data-theme='dark'] {
+  --color-first: #1b3154;
+  --color-first-dark: #13233d;
+
+  --color-second: #346cac;
+  --color-second-light: #4a83c2;
+
+  --color-third: #c2224e;
+  --color-third-dark: #8e1838;
+
+  --color-gray-light: #1e1e2c;
+  --color-gray: #2f2f3f;
+  --color-gray-dark: #cccccc;
+
+  --color-white: #fdfdfd;
+  --color-black: #030711;
+
+  --bg-body: linear-gradient(135deg, #030711 0%, #1b3154 100%);
+  --bg-header: var(--color-first-dark);
+  --bg-card: #0d1420;
+
+  --text-primary: var(--color-white);
+  --text-on-red: var(--color-white);
+  --text-on-second: var(--color-white);
+  --text-on-third: var(--color-white);
+
+  --card-border-color: var(--color-second);
+  --card-text-color: var(--color-white);
+  --card-text-color-second: var(--color-second-light);
+  --card-text-color-third: var(--color-third);
+}

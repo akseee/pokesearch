@@ -1,0 +1,49 @@
+.form {
+  position: sticky;
+  top: 75px;
+  z-index: 10;
+  display: flex;
+  gap: 1em;
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+  padding: 1rem 3rem 1em;
+  box-shadow: var(--shadow-md);
+  font-weight: 700;
+  font-size: 1.5rem;
+  background: var(--bg-header);
+}
+
+.input {
+  border-color: transparent;
+}
+
+.clear {
+  opacity: 0.5;
+  color: var(--color-white);
+  font-weight: normal;
+  background-color: var(--color-third-dark);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.clear:hover {
+  opacity: 1;
+}
+
+.clear:disabled {
+  pointer-events: none;
+}
+
+.submit {
+  min-width: 100px;
+}
+
+.submit div div {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+@media (max-width: 768px) {
+  .form {
+    gap: 0.5em;
+    border-radius: 0;
+  }
+}

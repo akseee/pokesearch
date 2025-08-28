@@ -1,0 +1,9 @@
+.button-wrapper {
+  padding: 1em 0 2em;
+  text-align: center;
+}
+
+.button-wrapper button {
+  width: 50%;
+  background-color: var(--color-first-dark);
+}

@@ -1,0 +1,12 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #111111;
+
+  --border-radius: 16px;
+  --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 8px 15px rgba(0, 0, 0, 0.15);
+  --shadow-ls: 0 15px 25px rgba(0, 0, 0, 0.4);
+
+  --transition-fast: 0.3s ease-in-out;
+  --transition-smooth: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}

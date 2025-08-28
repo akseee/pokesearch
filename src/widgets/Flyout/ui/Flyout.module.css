@@ -1,0 +1,22 @@
+.flyout {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: var(--border-radius);
+  padding: 1rem 2rem;
+  box-shadow: var(--shadow-ls);
+  font-size: 1.2em;
+  background: var(--bg-header);
+  transform: translateX(-50%);
+}
+
+.blob {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+}

@@ -1,0 +1,21 @@
+.result-wrapper {
+  display: grid;
+  flex: 1 1 auto;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  gap: 1em;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.error-message {
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align: center;
+}

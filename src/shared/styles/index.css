@@ -1,0 +1,97 @@
+body {
+  overflow-y: scroll;
+  color: var(--text-primary);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  background: var(--bg-body);
+
+  transition:
+    background var(--transition-smooth),
+    color var(--transition-smooth);
+}
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0.75rem 1.5rem;
+  color: var(--text-on-second);
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: var(--color-second);
+  transition:
+    background-color var(--transition-fast),
+    box-shadow var(--transition-fast);
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  box-shadow: var(--shadow-md);
+  outline: none;
+  color: var(--text-on-third);
+  background-color: var(--color-third);
+}
+
+a {
+  color: var(--color-first);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover,
+a:focus {
+  outline: none;
+  color: var(--color-first-dark);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: var(--color-black);
+  font-weight: 700;
+}
+
+p {
+  margin-top: 0;
+}
+
+input,
+textarea,
+select {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid var(--color-gray-dark);
+  border-radius: var(--border-radius);
+  padding: 0.5rem 0.75rem;
+  outline: none;
+  font-family: inherit;
+  font-size: 1rem;
+  transition:
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--color-second);
+  box-shadow: 0 0 5px var(--color-second);
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
